@@ -1,0 +1,6 @@
+<launch>
+
+<node> name="sender" pkg="number" type="publisher.py" output="screen"</node>
+<node> name="receiver" pkg="number" type="subscriber.py" output="screen"</node>
+
+</launch>
